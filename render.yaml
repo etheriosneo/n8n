@@ -22,6 +22,7 @@ services:
     #
     # You can define additional environment variables as needed.
     envVars:
+    - WEBHOOK_URL=https://n8n-service-pfkg.onrender.com/
       # Generates a base64-encoded key for
       # encrypting credentials in n8n
       #
